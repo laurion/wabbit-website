@@ -1,0 +1,18 @@
+{
+  "name":"wabbit-app",
+  "version": "0.1.0",
+  "authors": [
+    "Andrei Constantinescu <andrei.c@icloud.com>"
+  ],
+  "desciption": "Source code for the official Wabbit website.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "fontawesome": "~4.2.0"
+  }
+}
