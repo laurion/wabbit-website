@@ -8,6 +8,9 @@ var templates = require('../lib/templates');
 module.exports = View.extend({
   pageTitle: 'Wabbit Messenger',
   template: templates.pages.home,
+  events: {
+    'click .register': 'register'
+  },
   render: function () {
     this.$el.html(this.template());
     return this;
