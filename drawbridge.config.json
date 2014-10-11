@@ -1,0 +1,56 @@
+{
+  "superUser" : {
+    "email" : "laur@getwabbit.com",
+    "password" : "admin",
+    "stage" : "4"
+  },
+
+  "authentication" : {
+    "enableScreenName" : true,
+
+    "restrictedScreenNames" : [
+      "login", "logout", "signin", "blog", "legal",
+      "faq", "people", "hiring", "new", "contact",
+      "about"
+    ],
+
+    "termsOfService" : "termsOfService.txt",
+
+    "confirmationEmail" : {
+      "from" : "laur@getwabbit.com",
+      "subject" : "Welcome, Wabbit-er!"
+    },
+
+    "forgotPassword" : {
+      "from" : "forgot@getwabbit.com",
+      "subject" : "Password Reset"
+    }
+  },
+
+  "db" : {
+    "type" : "redis"
+  },
+
+  "email" : {
+    "module" : "nodemailer",
+    "service" : "Gmail",
+    "auth" : {
+      "user" : "me@gmail.com",
+      "pass" : "password"
+    }
+  },
+
+  "signups" : {
+    "waitlist" : true,
+
+    "signUpEmail" : {
+      "from": "laur@getwabbit.com",
+      "subject" : "Welcome to Wabbit!"
+    },
+
+    "inviteEmail" : {
+      "from" :  "laur@getwabbit.com",
+      "subject" : "Invitation"
+    }
+  }
+}
