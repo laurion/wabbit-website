@@ -818,3 +818,32 @@ hr {
 #fb_icon:hover, #tw_icon:hover, #in_icon:hover, #g_icon:hover, #pin_icon:hover, #fli_icon:hover {
     cursor: pointer;
 }
+
+.url-index .hero-container__text .hero-container__play-btn {
+		width: 160px;
+		font-size: 13px;
+		margin-top: 20px;
+		background-size: 30px 30px;
+}
+.hero-container__play-btn {
+		background-position: 0.6em 50%;
+		background-repeat: no-repeat;
+		background-size: 40px 40px;
+		color: #fff;
+		font-family: "brandon-grotesque",sans-serif;
+		letter-spacing: 0.1em;
+		font-size: 20px;
+		font-size: 1.33333rem;
+		line-height: 1.15;
+		display: inline-block;
+		text-transform: uppercase;
+		padding: 0.8em 0.8em 0.8em 3.3em;
+}
+
+.hero-container__play-btn, .benefits-quote .benefits-quote__play-btn>span, .url-about-us .founders-quote__play-btn>span {
+		background-image: url("../images/play-btn.svg");
+}
+
+#play-button {
+		margin-top: 4rem;
+}
