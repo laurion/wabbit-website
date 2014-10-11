@@ -53,7 +53,7 @@ a:hover {
 
 h1,h2,h3 {
     font-family: 'Lane', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 h1 {
@@ -310,7 +310,7 @@ hr {
 }
 
 .wabbit-logo {
-		height: 230px;
+		height: 180px;
 }
 
 
@@ -370,9 +370,9 @@ hr {
 }
 
 #logo {
-    margin-top: 2.875rem;
-    margin-bottom: 2.4rem;
-    opacity:1;
+		margin-top: 2.875rem;
+		margin-bottom: 4.4rem;
+		opacity: 1;
 }
 
 #logo_header {
